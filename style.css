@@ -1,0 +1,331 @@
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+ margin:0;
+ padding: 0;
+ box-sizing: border-box;   
+}
+body{
+    font-family: 'Press Start 2P', cursive;
+    background-color: black;
+}
+
+.hideOnMobile{
+    display: none !important;
+}
+
+.bgBlue{
+    background-color: rgba(8, 235, 31, 0.797);
+}
+
+@media(min-width: 992px){
+    .hideOnMobile{
+        display: unset !important;
+    }
+    .hideOnDesktop{
+        display: none !important;
+    }
+}
+
+.py5{
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+.py3{
+    padding-top: 0.55rem;
+    padding-bottom: 0.75rem;
+}
+
+.m2{
+margin: 0.5rem;
+}
+
+.mt5{
+margin-top: 1.25rem;
+}
+
+.p4{
+    padding: 1rem;
+}
+
+.sectionTitle{
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: black;
+}
+
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(12, 4, 105);
+    padding: 1rem 2rem;
+    align-items: center;
+}
+.logo{
+    margin-right: auto;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.navList{
+    list-style: none;
+    display: inline;
+}
+
+.navList li{
+    display: inline;
+    padding: 0 2rem;
+}
+
+.navList li a{
+    text-decoration: none;
+    color: red;
+}
+
+.navList li a:hover{
+    color: greenyellow;
+}
+
+.actionButton{
+    text-decoration: none;
+    color: red;
+    padding: 0.5rem 2rem;   
+    background-color: greenyellow;
+    border-radius: 2.5rem;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.actionButton2{
+    text-decoration: none;
+    color: red;
+    padding: 0.5rem 2rem;   
+    background-color: rgb(18, 14, 239);
+    border-radius: 2.5rem;
+}
+
+.hamburger{
+    margin-left: 1.5rem;
+    z-index: 4;
+}
+
+.hamburger div{
+    width: 35px;
+    height: 5px;
+    margin: 6px 0;
+    background-color: greenyellow;
+}
+
+.mobileNavList{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -100vh;
+    left: 0;
+    z-index: 3;
+    transition: 1s;
+}
+.mobileNavList li{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 2rem 0;
+}
+
+.mobileNavList a{
+text-decoration: none;
+color: red;
+font-size: 2rem;
+}
+
+.mobileNavChange{
+    top: 0;
+}
+
+.hamburgerChange .bar1{
+transform: rotate(-45deg) translate(-9px, 6px);
+}
+.hamburgerChange .bar2{
+opacity: 0;
+}
+.hamburgerChange .bar3{
+    transform: rotate(45deg) translate(-8px, -8px);
+
+}
+
+/*CSS for hero section*/
+
+.heroBg{
+    background-image: url(lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg);
+    height: 500px;
+    color: yellow;
+    background-position: center;
+    background-size:cover ;
+    position: relative;
+}
+.heroText{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: rgba(255, 68, 0, 0.389);
+}
+
+.heroText h1{
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+
+.j0z{
+color: rgb(0, 255, 21);
+text-align: center;
+
+
+padding-top: 9%;
+left: 20%;
+font-size: 65px;
+}
+
+
+/* about session*/
+
+
+.aboutLiColor{
+    color: orangered;
+}
+
+.aboutImage img{
+    width: 100%;
+}
+
+.sectionTitle h2{
+    color: magenta;
+}
+
+.aboutText ul{
+    margin-left: 1.25rem;
+    padding-right: 0.5rem;
+}
+
+.about{
+    background-color: rgb(7, 7, 201);
+}
+
+.aboutText p{
+    color: orangered;
+}
+
+
+@media (min-width: 640px){
+    .md-flex{
+        display: flex;
+    }
+    .aboutText ul{
+        width: 50%;
+    }
+    
+}
+
+@media (min-width: 992px){
+    .lg-flex{
+        display: flex;
+    }
+    .aboutText{
+        width: 50%;
+        padding-left: 1.25rem;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .aboutImage{
+        width: 50%;
+        padding: 18px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+
+}    
+
+/* CSS for Services*/
+
+.services h2{
+    color: magenta;
+}
+
+.services h3{
+    color: red;
+}
+
+.services p{
+color: yellow;
+margin-top: 10px;
+}
+
+.card img{
+width: 300px;
+height: 200px;
+margin-bottom: 10px;
+}
+
+.card{
+    background-color: black;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px rgba(30, 0, 255, 0.964);
+}
+
+@media (min-width: 640px){
+    .services .md-flex{
+        flex-wrap: wrap;
+    }
+    .services .w50{
+        width: 50%;
+
+    }
+   
+}
+
+@media (min-width: 992px){
+    .services .md-flex{
+        flex-wrap: unset;
+    }
+    .services .w50{
+        width: unset;
+
+    }
+   
+}
+
+/*footer style*/
+
+.footer{
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+}
+
+.sticky{
+    position: sticky;
+    top:0;
+    width: 100%;
+    z-index: 1;
+}

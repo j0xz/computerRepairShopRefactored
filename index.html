@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>j0z cyber works</title>
+        <meta name="description" content="The best computer repair shop in the world">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="modal.css">
+      
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+
+
+      <header class="sticky">
+        
+        <a href="#one" class="logo"><img src="NicePng_laptop-clipart-png_906173.png" 
+        alt="jose's cyber works"></a> 
+        <nav>
+            <ul class="navList hideOnMobile">
+                <li><a href="#one"> Home</a></li>
+                <li><a href="#two"> About</a></li>
+                <li><a href="#three"> Services</a></li>
+                <!--<li><a href=""> FAQ</a></li>-->
+                 
+            </ul>
+            <!-- Trigger/Open The Modal -->
+            <button id="myBtn" class="actionButton">Visit</button>
+        </nav>
+        <a href="" class="hamburger hideOnDesktop" id="hamburger">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </a>
+
+        <nav class="mobileNavList hideOnDesktop" id="mobileNav">
+            <ul>
+                <li><a href="#one"> Home</a></li>
+                <li><a href="#two"> About</a></li>
+                <li><a href="#three"> Services</a></li>
+                <!--<li><a href=""> FAQ</a></li>-->   
+            </ul>
+        </nav>
+
+      </header>
+      <section class="hero">
+        <div class="heroBg" id="one">
+            <p class="j0z">j0z CYBER WORKS</p>
+            <div class="heroText py5">
+                
+                <p>Computer Not Working???</p>
+                <h1 class="py3">YOU DESERVE THE BEST REPAIR SOLUTIONS!!!</h1>
+                <a href="mailto:josepthampi3@gmail.com" class="actionButton2">Connect</a>
+            </div>
+        </div>
+      </section>
+
+      <section class="about container">
+        <div class="sectionTitle py5" id="two">
+            <h2>About Us</h2>
+        </div>
+
+        <div class="lg-flex">
+            <div class="aboutImage">
+                <img src="alex-motoc-P43VRz8fLWs-unsplash.jpg" alt="about image">
+
+            </div>
+            <div class="aboutText">
+                <p>Established in 1900 due to the increasing demand of Computer Repair, j0z is the best 
+                    computer service centre in the whole USAWe are a team of 10 years experience in the 
+                    industry, with a passion for fixing issues while keeping in mind your wallet. 
+                    Getting your device fixed has never been as simple or cost-effective as with us.</p>
+                      <div class="md-flex py5 aboutLiColor">
+                        <ul>
+                            <li>Licensed Products</li>
+                            <li>Authorized Service</li>
+                        </ul>
+                        <ul>
+                            <li>Qualified Technicians</li>
+                            <li>Cheapest Price</li>
+                        </ul>
+                      </div>
+                <p>We're the most affordable computer repair service in town. 
+                 We offer the best service and will fix all your computing needs.
+                 Our trained technicians will fix your computer and you'll be up and running in no time.
+                 We guarantee a fast turnaround, so you won't have to wait long for your computer to be back up and running.</p>
+
+            </div>
+        </div>
+      </section>
+
+      <section class="services bgBlue mt5">
+        <div class="sectionTitle py5" id="three">
+            <h2>Services</h2>
+        </div>
+        <div class="md-flex py5">
+            <div class="w50">
+                <div class="card p4 m2">
+                    <img src="umberto-jXd2FSvcRr8-unsplash.jpg" alt="service image 1">
+                    <h3>Hardware Repair</h3>
+                    <p>Broken Computer!!! No Worries. We can Fix it and bring your Computer back to Life Again!!!</p>
+                </div>
+            </div>
+
+            <div class="w50">
+                <div class="card p4 m2">
+                    <img src="istockphoto-1217056200-612x612.jpg" alt="service image 1">
+                    <h3>Software Service</h3>
+                    <p>Slow Computer!!! We can Clean all the Virus and make your Computer Super Fast Again!!!</p>
+                </div>
+            </div>
+
+            <div class="w50">
+                <div class="card p4 m2">
+                    <img src="WdmhzdU.png" alt="service image 1">
+                    <h3>OS Update</h3>
+                    <p>We Update your Slow Outdated Operating System with the Newest Version in Market!!!</p>
+                </div>
+            </div>
+
+            <div class="w50">
+                <div class="card p4 m2">
+                    <img src="justus-menke-hmquzx6dOSQ-unsplash.jpg" alt="service image 1">
+                    <h3>Hardware Upgrade</h3>
+                    <p>We upgrade your Outdated Hardware with most Modern Technologies at the lowest price!!!</p>
+                </div>
+            </div>
+
+            
+        </div>
+
+      </section>
+
+
+      <!-- Modal content -->
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2>Address</h2>
+      </div>
+      <div class="modal-body">
+        <p>1000 Institute Road</p>
+        <p>Worcester, MA</p>
+      </div>
+      <div class="modal-footer">
+        <h3>Come Visit Us!!!</h3>
+      </div>
+    </div>
+  
+  </div>
+
+
+
+
+      <footer class="footer">
+        <p>*** ∞ No Rights Reserved ∞ ***</p>
+      </footer>
+
+        <script type="text/javascript">
+            var hamburger = document.getElementById ('hamburger');
+            var menu = document.getElementById('mobileNav');
+            hamburger.addEventListener("click", function(event){
+                event.preventDefault();
+                hamburger.classList.toggle('hamburgerChange');
+                menu.classList.toggle('mobileNavChange');
+
+            })
+        </script>
+        <script type="text/javascript" src="modal.js"> </script>   
+    </body>
+</html>
