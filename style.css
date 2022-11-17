@@ -104,6 +104,7 @@ header{
     background-color: greenyellow;
     border-radius: 2.5rem;
     font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
 }
 
 .actionButton2{
