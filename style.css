@@ -90,7 +90,7 @@ header{
 
 .navList li a{
     text-decoration: none;
-    color: red;
+    color: #FF3F0A;
 }
 
 .navList li a:hover{
@@ -99,7 +99,7 @@ header{
 
 .actionButton{
     text-decoration: none;
-    color: red;
+    color: #CC0000;
     padding: 0.5rem 2rem;   
     background-color: greenyellow;
     border-radius: 2.5rem;
@@ -109,7 +109,7 @@ header{
 
 .actionButton2{
     text-decoration: none;
-    color: red;
+    color: #BABABA;
     padding: 0.5rem 2rem;   
     background-color: rgb(18, 14, 239);
     border-radius: 2.5rem;
@@ -208,7 +208,7 @@ font-size: 65px;
 
 
 .aboutLiColor{
-    color: orangered;
+    color: #FF8B6B;
 }
 
 .aboutImage img{
@@ -229,7 +229,7 @@ font-size: 65px;
 }
 
 .aboutText p{
-    color: orangered;
+    color: #FF8B6B;
 }
 
 
